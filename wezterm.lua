@@ -5,6 +5,7 @@ local tabs = require 'tabs'
 
 local config = wezterm.config_builder()
 
+config.enable_wayland = false
 config.use_dead_keys = false
 config.scrollback_lines = 5000
 

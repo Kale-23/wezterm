@@ -21,7 +21,7 @@ local module = {}
 function module.apply_to_config(config)
     config.use_fancy_tab_bar = true
     config.window_frame = {
-     font = wezterm.font { family = 'Fira Code Nerd Font Mono', weight = 'Light' },
+     font = wezterm.font { family = 'Fira Code', weight = 'Light' },
         font_size = 10,
         active_titlebar_bg = '#090909'
     }

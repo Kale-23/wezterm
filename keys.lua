@@ -21,6 +21,11 @@ function module.apply_to_config(config)
             mods = "CTRL|CMD",
             action = act.ToggleFullScreen
         },
+        {-- Toggle Pane Zoom State
+            key = "z",
+            mods = "LEADER",
+            action = act.TogglePaneZoomState
+        },
         {-- Split Horizontal
             key = '|',
             mods = 'LEADER|SHIFT',
